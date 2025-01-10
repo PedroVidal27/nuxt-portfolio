@@ -3,7 +3,7 @@
     <section
       class="flex justify-center items-center py-40 bg-primary text-white break-words w-full min-h-screen"
     >
-      <h1 class="text-lg lg:text-3xl font-bold items-center">
+      <h1 class="text-xs md:text-lg lg:text-3xl font-bold items-center">
         <span class="typewriter">{{ currentQuote }}</span>
         <span class="caret"></span>
       </h1>
@@ -30,20 +30,20 @@
 
     <section
       id="about"
-      class="flex items-center justify-center space-x-8 bg-white p-8 py-16 mb-32 rounded-xl shadow-2xl mx-auto min-h-screen"
+      class="flex flex-col md:flex-row items-center justify-center space-x-8 bg-white p-8 py-16 mb-32 rounded-xl shadow-2xl mx-auto min-h-screen"
     >
       <div class="w-1/3 flex justify-center">
         <img
           src="/img/profile.jpg"
           alt="Pedro Vidal"
-          class="rounded-full w-60 h-60 object-cover transform transition duration-300 hover:scale-110"
+          class="rounded-full max-w-60 max-h-60 object-cover transform transition duration-300 hover:scale-110 mb-10"
         />
       </div>
       <div class="w-3/6">
-        <h2 class="text-3xl font-bold text-primary mb-6 tracking-wide">
+        <h2 class="text-xl md:text-3xl font-bold text-primary mb-6 tracking-wide">
           Sobre Mim
         </h2>
-        <p class="text-gray-700 text-lg leading-relaxed">
+        <p class="text-sm md:text-xl text-gray-700 text-lg leading-relaxed">
           Desenvolvedor mobile e front-end especializado em React (Native e
           Next.js). Participei do desenvolvimento de aplicativos como o 156
           Caraguatatuba e o SAEG, impactando a vida de milhares de usuários.
